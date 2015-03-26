@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 25 Mar 2015 10:18:02 PM CDT
+
+BeginCmp
+TimeStamp = /5512393E;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = mfk-CRP_5.0_2.0_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55123CB9;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = mfk-CRP_5.0_2.0_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55123CBF;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /551224A7;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512202E;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512214D;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55123951;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551235DA;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55121E4C;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-PU;
+IdModule  = mfk-DIP-28_300_rnd;
+EndCmp
+
+BeginCmp
+TimeStamp = /55123E65;
+Reference = JP1;
+ValeurCmp = LP;
+IdModule  = mfk-SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512260D;
+Reference = P1;
+ValeurCmp = I/O lo;
+IdModule  = mfk-SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512261C;
+Reference = P2;
+ValeurCmp = FTDI Basic;
+IdModule  = mfk-SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512262B;
+Reference = P3;
+ValeurCmp = A4 A5;
+IdModule  = mfk-SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55122638;
+Reference = P4;
+ValeurCmp = I/O hi;
+IdModule  = mfk-SIL-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512394B;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = mfk-R_0.25W_RN55_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /55122385;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = mfk-R_0.25W_RN55_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /551235CB;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = mfk-R_0.25W_RN55_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512385B;
+Reference = R4;
+ValeurCmp = opt;
+IdModule  = mfk-R_0.25W_RN55_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512384E;
+Reference = R5;
+ValeurCmp = opt;
+IdModule  = mfk-R_0.25W_RN55_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /551223DD;
+Reference = SW1;
+ValeurCmp = Reset;
+IdModule  = mfk-SW_PUSH_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512BF3C;
+Reference = U1;
+ValeurCmp = L4931CZ50-AP;
+IdModule  = mfk-TO-92_f321;
+EndCmp
+
+BeginCmp
+TimeStamp = /55136729;
+Reference = X1;
+ValeurCmp = CSTLS16M0X53-B0;
+IdModule  = mfk-Murata-CSTLS_X;
+EndCmp
+
+EndListe
