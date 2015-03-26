@@ -2,3 +2,5 @@
 *.dsn
 *.ses
 *.kicad_pcb-bak
+*.zip
+Gerbers/*
