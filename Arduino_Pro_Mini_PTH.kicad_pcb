@@ -948,7 +948,7 @@
   )
 
   (module oshw-logo-150mil-FSilk (layer F.Cu) (tedit 0) (tstamp 5513A04A)
-    (at 143.383 123.063)
+    (at 128.27 124.587)
     (fp_text reference VAL (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.381 0.381) (thickness 0.127)))
     )
@@ -1463,7 +1463,7 @@
   (gr_text A2 (at 142.367 108.077 90) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
-  (gr_text A0 (at 146.685 110.617 90) (layer F.SilkS)
+  (gr_text A1 (at 146.685 110.617 90) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
   (gr_text A0 (at 146.685 113.03 90) (layer F.SilkS)
