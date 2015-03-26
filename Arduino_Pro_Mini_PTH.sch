@@ -38,10 +38,10 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Arduino Pro Mini using through-hole parts"
-Date "25 mar 2015"
+Date "26 mar 2015"
 Rev ""
 Comp "Mithat Konar (https://github.com/mithat/Arduino_Pro_Mini_PTH)"
-Comment1 "Pro Mini design by SparkFun Electronics (github.com/sparkfun/Arduino_Pro_Mini_328)"
+Comment1 "Original Pro Mini design by SparkFun Electronics"
 Comment2 "Creative Commons Attribution Share Alike 3.0 License"
 Comment3 ""
 Comment4 ""
@@ -58,47 +58,14 @@ F 3 "~" H 7050 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL X1
-U 1 1 55121E8C
-P 5600 4050
-F 0 "X1" H 5600 4200 60  0000 C CNN
-F 1 "8/16MHz" H 5600 3900 60  0000 C CNN
-F 2 "~" H 5600 4050 60  0000 C CNN
-F 3 "~" H 5600 4050 60  0000 C CNN
-	1    5600 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C5
-U 1 1 55121E9B
-P 5350 3700
-F 0 "C5" H 5350 3800 40  0000 L CNN
-F 1 "TBD" H 5356 3615 40  0000 L CNN
-F 2 "~" H 5388 3550 30  0000 C CNN
-F 3 "~" H 5350 3700 60  0000 C CNN
-	1    5350 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C6
-U 1 1 55121EA8
-P 5350 4400
-F 0 "C6" H 5350 4500 40  0000 L CNN
-F 1 "TBD" H 5356 4315 40  0000 L CNN
-F 2 "~" H 5388 4250 30  0000 C CNN
-F 3 "~" H 5350 4400 60  0000 C CNN
-	1    5350 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 55121F28
-P 5000 4100
-F 0 "#PWR01" H 5000 4100 30  0001 C CNN
-F 1 "GND" H 5000 4030 30  0001 C CNN
-F 2 "" H 5000 4100 60  0000 C CNN
-F 3 "" H 5000 4100 60  0000 C CNN
-	1    5000 4100
+P 5350 4200
+F 0 "#PWR01" H 5350 4200 30  0001 C CNN
+F 1 "GND" H 5350 4130 30  0001 C CNN
+F 2 "" H 5350 4200 60  0000 C CNN
+F 3 "" H 5350 4200 60  0000 C CNN
+	1    5350 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -405,7 +372,7 @@ U 1 1 551235DA
 P 8350 3050
 F 0 "D2" H 8350 3150 50  0000 C CNN
 F 1 "LED" H 8350 2950 50  0000 C CNN
-F 2 "~" H 8350 3050 60  0000 C CNN
+F 2 "LED-3MM" H 8350 3050 60  0001 C CNN
 F 3 "~" H 8350 3050 60  0000 C CNN
 	1    8350 3050
 	0    1    1    0   
@@ -421,7 +388,7 @@ F 3 "" H 8350 3300 60  0000 C CNN
 	1    8350 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 8550 3100 1    60   ~ 0
+Text Notes 8550 3100 1    40   ~ 0
 Green
 $Comp
 L R R5
@@ -498,26 +465,11 @@ A5
 Text GLabel 9600 4400 0    60   BiDi ~ 0
 A4
 Wire Wire Line
-	5550 3700 5850 3700
-Wire Wire Line
-	5600 3750 5600 3700
-Connection ~ 5600 3700
-Wire Wire Line
 	5550 4400 5850 4400
 Wire Wire Line
-	5600 4350 5600 4400
-Connection ~ 5600 4400
+	5450 4150 5350 4150
 Wire Wire Line
-	5150 3700 5100 3700
-Wire Wire Line
-	5100 3700 5100 4400
-Wire Wire Line
-	5100 4400 5150 4400
-Wire Wire Line
-	5100 4050 5000 4050
-Wire Wire Line
-	5000 4050 5000 4100
-Connection ~ 5100 4050
+	5350 4150 5350 4200
 Wire Wire Line
 	6100 4850 6100 4750
 Wire Wire Line
@@ -548,8 +500,6 @@ Wire Wire Line
 	5850 4250 6150 4250
 Wire Wire Line
 	6150 4150 5850 4150
-Wire Wire Line
-	5850 4150 5850 3700
 Wire Wire Line
 	4750 2850 4750 2950
 Wire Wire Line
@@ -1047,7 +997,7 @@ C0 58 82 E0 69 86 37 6D 0B A7 C2 93 89 E9 5D C5 88 2A 90 FC 74 0B B0 01 D5 F6 29
 56 96 2D 0B ED F6 7F C2 CC A3 57 85 CF 8C 0D E1 5F 0E 87 B5 3C 11 5E EB 0D 32 F1 5C 0A B0 54 C9 
 63 98 05 E1 6B C4 72 91 8E EA 95 27 8C 4B 0B 6B 30 6B 95 2D 08 DF 47 79 14 D8 40 20 A9 90 96 2D 
 E1 E7 3D C6 74 F3 E0 6E B9 00 E4 0E CC EC 2A 00 9E 03 F9 2E 43 53 93 3B E7 B1 3D FE 0F E4 2C B5 
-B8 3A B8 3B 5D 00 00 00 00 49 45 4E 44 AE 42 60 82 CB $EndBitmap
+B8 3A B8 3B 5D 00 00 00 00 49 45 4E 44 AE 42 60 82 65 $EndBitmap
 EndData
 $EndBitmap
 Text GLabel 1000 1250 0    60   UnSpc ~ 0
@@ -1080,7 +1030,7 @@ U 1 1 55123951
 P 2900 1550
 F 0 "D1" H 2900 1650 50  0000 C CNN
 F 1 "LED" H 2900 1450 50  0000 C CNN
-F 2 "~" H 2900 1550 60  0000 C CNN
+F 2 "LED-3MM" H 2900 1550 60  0001 C CNN
 F 3 "~" H 2900 1550 60  0000 C CNN
 	1    2900 1550
 	0    1    1    0   
@@ -1096,7 +1046,7 @@ F 3 "" H 2900 2450 60  0000 C CNN
 	1    2900 2450
 	1    0    0    -1  
 $EndComp
-Text Notes 3100 1650 1    60   ~ 0
+Text Notes 3100 1600 1    40   ~ 0
 Red
 $Comp
 L GND #PWR018
@@ -1170,7 +1120,7 @@ L JUMPER JP1
 U 1 1 55123E65
 P 3350 1250
 F 0 "JP1" H 3350 1400 60  0000 C CNN
-F 1 "low_pwr" H 3350 1170 40  0000 C CNN
+F 1 "LP" H 3350 1170 40  0000 C CNN
 F 2 "~" H 3350 1250 60  0000 C CNN
 F 3 "~" H 3350 1250 60  0000 C CNN
 	1    3350 1250
@@ -1263,4 +1213,25 @@ Wire Wire Line
 	8050 2250 8350 2250
 Wire Wire Line
 	2900 2450 2900 2350
+Text Notes 3900 3900 0    40   ~ 0
+6mm N.O. tactile\n(e.g. TE 1977120-6,\nC&K PTS645SL43 LFS)
+$Comp
+L CRYSTAL_SMD X?
+U 1 1 55136729
+P 5550 4150
+F 0 "X?" H 5550 4240 40  0000 C CNN
+F 1 "CSTLS16M0X53-B0" H 5550 4300 30  0000 C CNN
+F 2 "~" H 5550 4150 60  0000 C CNN
+F 3 "~" H 5550 4150 60  0000 C CNN
+	1    5550 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4400 5550 4350
+Wire Wire Line
+	5550 3950 5550 3900
+Wire Wire Line
+	5550 3900 5850 3900
+Wire Wire Line
+	5850 3900 5850 4150
 $EndSCHEMATC
