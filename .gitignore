@@ -1,1 +1,4 @@
 *.bak
+*.dsn
+*.ses
+*.kicad_pcb-bak
